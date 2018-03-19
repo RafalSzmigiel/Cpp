@@ -11,9 +11,11 @@ int main()
 
 	for(int i =0; i<wysokosc ; i++)
 	{
-		for(int j=0; j<wysokosc-i ; j++)	cout<<" ";
+		for(int j=0; j<wysokosc-i ; j++)	
+			cout<<" ";
 
-		for(int j=0; j<i*2-1 ; j++)	 cout<<"*";
+		for(int j=0; j<i*2-1 ; j++)	 
+			cout<<"*";
 
 		cout<<endl;
 	}
